@@ -67,6 +67,7 @@ const About = () => {
                     <div className="skills__tables">
                         <h3>Version Control</h3>
                         <li>Git</li>
+                        <li>GitHub</li>
                     </div>
                 </div>
                 <hr />
