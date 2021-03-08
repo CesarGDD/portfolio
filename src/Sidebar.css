@@ -1,0 +1,49 @@
+.sidebar__open {
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    color:  #4380C3;
+    background-color:  #2f3133;
+    font-size: x-large;
+    left: 0;
+    top: 0;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    transform: translateX(0);
+    transition: 0.6s;
+}
+
+.sidebar__open > div {
+    display: flex;
+    background-color:  #2f3133;
+    padding: 10px;
+    border-bottom: 1px solid #5c6064;
+    cursor: pointer;
+}
+
+.sidebar__open > div:hover {
+    color: white;
+    transition: 0.4s;
+}
+
+.sidebar__icon {
+    background-color: #2f3133;
+    margin-right: 15px;
+}
+.sidebar__iconMenu {
+    background-color: #2f3133;
+    color: white;cursor: pointer;
+}
+
+.sidebar__close {
+    transform: translateX(0%);
+    transition: 0.6s;
+}
+
+.sidebar__close > div {
+    display: none;
+}
